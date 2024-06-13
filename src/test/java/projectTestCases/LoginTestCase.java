@@ -52,6 +52,7 @@ public void f() throws IOException, InterruptedException {
 @BeforeTest
 
 public void beforeTest() throws InterruptedException {
+	
 	  DriverManager obj1=new DriverManager();
 		obj1.launchbrowser(url,browser);
 		driver=obj1.driver;

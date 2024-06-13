@@ -36,15 +36,7 @@ package pomTestCases;
 		
 		
 		objHandler.click(WebLoginBtn);
-		
-//		objHandler.click(Quotes);
-//		Thread.sleep(3000);
-	//	
-	//	
-//		objHandler.click(Weblogout);
-		//objHandler.clear(Webusername);
-		//objHandler.clear(Webpassword);
-//		Thread.sleep(5000);
+
 	}
 	}
 
