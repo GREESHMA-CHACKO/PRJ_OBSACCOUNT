@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+  <test name="Test1">
+	 <parameter name="browser1" value="firefox"></parameter>
+ <classes>
+       <class name="crossBrowser.LoginTestCase"/>
+      </classes>
+  </test> <!-- Test -->
+  <test name="Test2">
+	 <parameter name="browser2" value="chrome"></parameter>
+ <classes>
+      <class name="crossBrowser.UnitsTestCase"/>
+      </classes>
+  </test> <!-- Test -->
+  </suite> <!-- Suite -->

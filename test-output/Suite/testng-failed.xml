@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test thread-count="5" name="Test2(failed)">
+    <parameter name="browser2" value="firefox"/>
+    <classes>
+      <class name="crossBrowser.UnitsTestCase">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="search_units"/>
+          <include name="extendreportgenerate"/>
+          <include name="afterTest"/>
+          <include name="closereport"/>
+          <include name="deleteUnits"/>
+        </methods>
+      </class> <!-- crossBrowser.UnitsTestCase -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
